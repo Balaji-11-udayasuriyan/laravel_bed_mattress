@@ -34,7 +34,7 @@ class DatabaseSeeder extends Seeder
 
         $this->call(SizeSeeder::class);
         $this->call(UnitSeeder::class);
+        $this->call(ThicknessSeeder::class);
         
-
     }
 }
