@@ -13,7 +13,6 @@ return new class extends Migration
     {
         Schema::create('thicknesses', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
             $table->decimal('value_in_inches', 5,2);
             $table->decimal('value_in_feet', 5,2);
             $table->decimal('value_in_cm', 5,2);

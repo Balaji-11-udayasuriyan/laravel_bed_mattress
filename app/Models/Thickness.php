@@ -10,8 +10,7 @@ class Thickness extends Model
     use HasFactory;
 
     protected $fillable = [
-
-        'name',
+        
         'value_in_inches',
         'value_in_feet',
         'value_in_cm'
