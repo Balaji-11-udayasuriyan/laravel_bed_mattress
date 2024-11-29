@@ -25,5 +25,10 @@ class ThicknessSeeder extends Seeder
             ['value_in_inches' => 10, 'value_in_feet' => 0.83, 'value_in_cm' => 25.40],
 
         ];
+
+        foreach ($thicknesses as $row){
+
+            Thickness::create($row);
+        }
     }
 }
